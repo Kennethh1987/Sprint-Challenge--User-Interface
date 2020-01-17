@@ -30,3 +30,28 @@
         padding: 5px 20px;
     }
 }
+
+header .Banner{
+    max-width: 100%;
+    margin-bottom: 30px;
+    }
+    .banner{
+        width: 30%;
+
+    }
+    .navy{
+        margin: 20px 0 20px;
+        align-items: flex-end;
+        display: flex;
+        
+    }
+    .navy a{ 
+        padding: 0 20px 0 20px;
+      
+    }
+    .navy a:hover {
+        background:white;
+        font-size: 20px;
+        animation-name: nav-hover;
+        animation-duration: .5s;
+      }

@@ -94,82 +94,41 @@ p {
     color: black;
   }
 
-about-page .top-content .text-container {
-    width: 100%;
+ .top .text1 {
+     width: 100%;
     padding: 20px 1%;
     padding-bottom: 20px;  
   }
   
-  .strategy-content {
+  .strategy {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   
-  .about-box {
+  .about {
     padding-bottom: 15px;
     margin: 20px 10px 0;
     border-bottom: 1px dashed black;
     flex: 1;
   }
   
-  .about-box h2 {
+  h2 {
     padding-top: 15px;
   }
   
-  .about-box p {
+   p {
     padding-bottom: 15px;
   }
-  
-  .about-box button {
+  button {
     background: white;
     font-size: 16px;
     padding: 8px 20px;
     margin-bottom: 8px;
     border: 2px solid black;
     border-radius: 10px;
-  }
-  
-  .about-page .bottom-content {
-    margin-top: 40px;
   }
 
-  about-page .top-content .text-container {
-    width: 100%;
-    padding: 20px 1%;
-    padding-bottom: 20px;  
-  }
-  
-  .strategy-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .about-box {
-    padding-bottom: 15px;
-    margin: 20px 10px 0;
-    border-bottom: 1px dashed black;
-    flex: 1;
-  }
-  
-  .about-box h2 {
-    padding-top: 15px;
-  }
-  
-  .about-box p {
-    padding-bottom: 15px;
-  }
-  
-  .about-box button {
-    background: white;
-    font-size: 16px;
-    padding: 8px 20px;
-    margin-bottom: 8px;
-    border: 2px solid black;
-    border-radius: 10px;
-  }
-  
-  .about-page .bottom-content {
+  .bottom  {
     margin-top: 40px;
   }
