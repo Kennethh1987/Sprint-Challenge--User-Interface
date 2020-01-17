@@ -85,7 +85,7 @@ p {
     animation-name: nav-hover;
     animation-duration: .5s;
   }
-   header .Banner{
+  .Banner{
   width: 100%;
   margin-bottom: 30px;
   }
@@ -99,35 +99,39 @@ p {
     padding: 20px 1%;
     padding-bottom: 20px;  
   }
-  
+   h2 {
+    padding-top: 20px;
+    margin-top: 5px;
+  }
+ 
+   p {
+    padding-bottom: 15px;
+  }
+
   .strategy {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
   }
   
   .about {
     padding-bottom: 15px;
-    margin: 20px 10px 0;
+    margin: 20px 12px 0;
     border-bottom: 1px dashed black;
     flex: 1;
   }
   
-  h2 {
-    padding-top: 15px;
-  }
-  
-   p {
-    padding-bottom: 15px;
-  }
+ 
   button {
     background: white;
     font-size: 16px;
-    padding: 8px 20px;
+    padding: 7px 20px;
     margin-bottom: 8px;
     margin-top: 8px;
     border: 2px solid black;
     border-radius: 10px;
+    font-weight: lighter;
   }
 
   .bottom  {
